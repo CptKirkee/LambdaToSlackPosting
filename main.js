@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     print(randomNumber)
     
     #Slack channel and message specifications
-    url = "https://hooks.slack.com/services/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"
+    url = ADD SLACK URL
     msg = {
         "channel": "mindfulness-tips",
         "username": "WEBHOOK_USERNAME",
